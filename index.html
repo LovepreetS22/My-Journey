@@ -19,26 +19,106 @@
             color: rgba(236, 27, 27, 0.8);
         }
 
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            float: left;
+            width: 70%;
+            padding: 10px;
+        }
+        aside {
+            float: left;
+            width: 15%;
+            padding: 10px;
+        }
+        footer {
+            clear: both;
+        }
+        .structural {
+            margin: 10px;
+            border: 2px solid #0c0c0c;
+            padding: 10px;
+        }
+        .structural header {
+            background-color: hsl(186, 71%, 63%);
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .structural main {
+            background-color: hsl(61, 62%, 62%);
+            float: left;
+            width: 70%;
+            padding: 1px;
+        }
+        .structural aside {
+            background-color: hsl(329, 48%, 77%);
+            float: left;
+            width: 20%;
+            padding: 10px;
+        }
+        .structural footer {
+            background-color: hsl(115, 30%, 63%);
+            clear: both;
+        }
+        .structural footer p{
+            font-size: 0.8em;
+        }
+        #paragraph1 {
+            color: rgb(188, 31, 31);
+        }
+        #paragraph2 {
+            color: rgb(6, 71, 14);
+        }
+        a:hover {
+            color: rgb(233, 13, 13);
+        }
+
     </style>
 </head>
 <body>
     <!-- Created by Lovepreet Singh (chauhanlovepreet500@gmail.com)-->
 
+    <div class="structural">
+    <header> 
     <h1 style="color: red; font-size: 35px;"> My Journey: A little about me</h1>
+    </header>
 
     <h2>Exploring Nature</h2>
 
+    <aside>
     <ul class="external-links">
         <li><a href="https://www.destinationontario.com/en-ca" target="_blank">Ontario Travels</a></li>
         <li><a href="https://www.incredibleindia.org/content/incredible-india-v2/en.html" target="_blank">A Trip to India</a></li>
     </ul>
-    <p>
+    </aside>
+
+    <main> 
+        <section>
+            <h2>Part 1</h2>  
+    <p id="paragraph1">
         My name is Lovepreet Singh.I came to Canada a few months ago, to study in Conestoga College after completing my senior secondary education in my home country.I am studying General Arts and Science program.I am very excited for this new journey and am sure I will be learning lots of new things during this period.Talking about Canada, it is surely a welcoming and peaceful country.There are so many places here that you can visit and you will absolutely fall in love with Canada.One of the most famous tourist attraction is Niagara falls where numrous amount of people go to visit every day.Including niagara falls, I visited a few other places in Ontario and loved how everyone here is welcoming and kind.I am happy and thankful to my parents to give me this opportunity to study in such a great college in this beautiful country.
     </p>
+    </section>
 
-    
-    <p>
+    <section> 
+        <h2>Part 2</h2>
+    <p id="paragraph2">
         Canada is a beautiful country. Although I miss my hometowm sometimes, like spending time with my family, especially my siblings.My hometown is in India.It's a country known for it's rich culture and history.In fact, our country has a diverse culture with many religions,foods,languages,traditions,arts and trends.It is a place where you can visit one of the seven wonders of the world- The Taj Mahal.India is also a country known for it's heritage and of course, for the people who live here.That is the reason India is famous for the common saying of "unity in diversity".
     </p>
+    </section>
+    </main>
+
+    <footer>
+        <p>&copy; Lovepreet Singh 2024 </p>
+    </footer>
+    </div>
 </body>
 </html>
