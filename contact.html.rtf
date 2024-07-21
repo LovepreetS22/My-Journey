@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+
+    <link rel="stylesheet" href="normalize.css">
+
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <header> 
+    <h1>Welcome to Contact Page</h1>
+    </header>
+
+<nav class="structural">
+    <ul>
+      <li><a href="index.html">HOME</a></l>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+    </ul>
+    </nav>
+
+    <main> 
+        <h2>Contact Us</h2>
+    <form id="contactForm" action="#" method="post'>
+
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" aurofocus required>
+</div>
+
+<div>
+   <label for="email">Email;</label>
+   <input type="email" id="email" name="email" required>
+</div>
+
+<fieldset>
+  <legend>What section of Prog1245 are you in?</legend>
+<div>
+  input type="radio' id="sec4 name="sec" value="4" required>
+<label for="sec4">Section 4</label>
+</div>
+
+<div>
+  input type="radio' id="sec5 name="sec" value="5" required>
+<label for="sec5">Section 5</label>
+</div>
+
+<div>
+  input type="radio' id="sec8 name="sec" value="8" required>
+<label for="sec8">Section 8</label>
+</div>
+</fieldset>
+
+<div>
+  <label for="help">What do you need help with?</label>
+  <select id="help" name="help" required>
+    <option value="" selected disabled>Select Option</option>
+    <option value="HTML>HTML</option>
+    <option value="CSS">CSS</option>
+    <option value="Both {HTML &CSS)">BOTH (HTML & CSS)</option>
+</select>
+</div>
+
+<div>
+  <label for"comments">Comments:</label>
+  <textarea id="comments" name="comments" rows="4" required></textarea>
+</div>
+
+<div>
+  <input type="checkbox" id="human" name="human" value="true" required>
+<label for="human>I am a human</label>
+</div>
+
+<div>
+  <input type="submit"  value="submit">
+</div>
+</form>
+    </main>
+
+    <footer>
+        <p>&copy; Lovepreet Singh 2024 </p>
+    </footer>
+    </div>
+</body>
+</html>
